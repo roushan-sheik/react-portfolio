@@ -24,7 +24,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>Roushan Sheik</span>
+            My Name's <span>Roushan Sheik</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Web Developer
