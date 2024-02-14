@@ -12,15 +12,17 @@ const Hireme = () => {
       <div className="bg-gray-700 lg:flex lg:items-center relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <h2 className="text-2xl font-semibold">
-            Do you want any work from me?
+            Are you in need of a skilled web developer? Look no further! If
+            you're seeking professional expertise in web development, don't
+            hesitate to reach out. Connect with me on LinkedIn and let's discuss
+            how I can help bring your projects to life!
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+            If you do l
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <button className="btn-primary mt-10">
+            <a href="https://www.linkedin.com/in/roushan-sheik/">Say Hello</a>
+          </button>
         </div>
         <div id="hire-me-parent" className="">
           <img
