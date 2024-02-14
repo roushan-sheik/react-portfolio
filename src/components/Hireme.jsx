@@ -21,7 +21,12 @@ const Hireme = () => {
             life!
           </p>
           <button className="btn-primary mt-10">
-            <a href="https://www.linkedin.com/in/roushan-sheik/">Say Hello</a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/roushan-sheik/"
+            >
+              Say Hello
+            </a>
           </button>
         </div>
         <div id="hire-me-parent" className="">
