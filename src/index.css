@@ -10,15 +10,11 @@ body {
   @apply box-border bg-gray-900 text-gray-100;
 }
 .btn-primary {
-  @apply bg-hero font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
-}
-#main_con {
-  max-width: 1440px;
-  margin: auto;
+  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
 }
 
 .aboutImg::after {
-  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-halkaHero -z-10;
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10;
 }
 
 .swiper-pagination-bullet {
@@ -34,7 +30,7 @@ textarea {
 }
 
 ::selection {
-  @apply bg-hero;
+  @apply bg-cyan-600;
 }
 #hero-parent {
   height: 400px;

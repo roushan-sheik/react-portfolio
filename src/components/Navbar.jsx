@@ -18,14 +18,14 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`fixed  w-full mx-auto left-0 top-0 z-[999] ${
+      className={`fixed w-full left-0 top-0 z-[999] ${
         sticky ? "bg-white/60  text-gray-900" : "text-white"
       }`}
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold">
-            ROUSHAN<span className="text-hero">SHEI</span>K
+            ROUSHAN<span className="text-cyan-600">SHEI</span>K
           </h4>
         </div>
         <div
@@ -35,7 +35,7 @@ const Navbar = () => {
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-hero">
+              <li key={i} className="px-6 hover:text-cyan-600">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}
@@ -60,7 +60,7 @@ const Navbar = () => {
               <li
                 onClick={() => setOpen(false)}
                 key={i}
-                className="px-6 hover:text-hero"
+                className="px-6 hover:text-cyan-600"
               >
                 <a href={menu?.link}>{menu?.name}</a>
               </li>

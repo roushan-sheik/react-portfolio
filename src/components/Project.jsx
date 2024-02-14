@@ -47,7 +47,7 @@ const Project = () => {
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-hero">Projects</span>
+          My <span className="text-cyan-600">Projects</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
@@ -80,14 +80,14 @@ const Project = () => {
                     <a
                       href={project_info.github_link}
                       target="_blank"
-                      className="text-hero bg-gray-800 px-2 py-1 inline-block"
+                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Github
                     </a>
                     <a
                       href={project_info.live_link}
                       target="_blank"
-                      className="text-hero bg-gray-800 px-2 py-1 inline-block"
+                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Live Demo
                     </a>
