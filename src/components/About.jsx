@@ -41,7 +41,10 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Code_a_program.pdf" download>
+              <a
+                href="https://drive.google.com/file/d/18blKAb3j3N6gNQPfPlwdQHbeeM8Y8axX/view"
+                download
+              >
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
