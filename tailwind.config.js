@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         Poppins: "Poppins",
       },
+      colors: {
+        hero: "#D63484",
+        halkaHero: "#F8F4EC",
+        arifaBlue: "#15F5BA",
+      },
     },
   },
   plugins: [],

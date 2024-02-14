@@ -6,7 +6,9 @@ import "./index.css";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <main id="main_con">
+      <App />
+    </main>
   </BrowserRouter>,
   document.getElementById("root")
 );
